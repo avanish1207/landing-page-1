@@ -90,4 +90,20 @@ ul{
 
 .two{
     padding: 10px 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.two-bottom{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.card{
+  max-width: 200px;
+}
+
+.text{
+  text-align: center;
 }
