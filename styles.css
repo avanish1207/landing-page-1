@@ -1,0 +1,20 @@
+.header, .footer{
+    background-color: #1F2937;
+    display: flex;
+    font-family: "Roboto";
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.links{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.footer{
+    color: #F9FAF8;
+}
