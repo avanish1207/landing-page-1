@@ -1,5 +1,6 @@
 body{
     font-family: "Roboto";
+    margin: 0;
 }
 
 .header, .footer{
@@ -11,7 +12,7 @@ body{
 .logo{
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: bold;
+    font-weight: bolder;
     display: flex;
     align-items: center;
 }
@@ -58,7 +59,7 @@ ul{
 .one-left{
     display:flex;
     flex-direction: column;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     gap: 5px;
     padding-right: 10px;
 }
@@ -71,6 +72,7 @@ ul{
 .one-left-one{
     font-size: 48px;
     color: #F9FAF8;
+    font-weight: bolder
 }
 
 .one-left-two{
@@ -80,8 +82,9 @@ ul{
 .one-left-three button{
     background-color: #4285F4;
     color: #F9FAF8;
+    font-weight: bold;
     border-radius: 6px;
-    padding: 5px 24px;
+    padding: 5px 26px;
     border: none;
 }
 
