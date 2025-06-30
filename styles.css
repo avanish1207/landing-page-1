@@ -5,7 +5,7 @@ body{
 .header, .footer{
     background-color: #1F2937;
     display: flex; 
-    padding: 10px;
+    padding: 50px 350px;
 }
 
 .logo{
@@ -47,9 +47,8 @@ ul{
 
 .one{
     display: flex;
-    width: 100%;
     background-color: #1F2937;
-    padding-bottom: 50px;
+    padding: 10px 360px;
 }
 
 .one-right, .one-left{
@@ -61,6 +60,7 @@ ul{
     flex-direction: column;
     /* justify-content: space-evenly; */
     gap: 5px;
+    padding-right: 10px;
 }
 
 .one-right img{
@@ -83,4 +83,8 @@ ul{
     border-radius: 6px;
     padding: 5px 24px;
     border: none;
+}
+
+.two{
+    padding: 10px 360px;
 }
