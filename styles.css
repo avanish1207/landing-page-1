@@ -2,12 +2,15 @@
     background-color: #1F2937;
     display: flex;
     font-family: "Roboto";
+    padding: 10px;
 }
 
 .logo{
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 .links{
@@ -15,6 +18,18 @@
     color: #e5e7eb;
 }
 
+ul{
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    gap: 10px;
+}
+
+.header{
+    justify-content: space-between;
+}
+
 .footer{
     color: #F9FAF8;
+    justify-content: center;
 }
