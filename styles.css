@@ -93,7 +93,7 @@ ul{
 }
 
 .one-left-three button{
-    background-color: #4285F4;
+    background-color: #3882f6;
     color: #F9FAF8;
     font-weight: bold;
     border-radius: 6px;
@@ -154,4 +154,41 @@ ul{
     font-weight: bold;
     text-align: end;
     font-size: 20px;
+}
+
+.four{
+    padding: 100px 200px;
+}
+
+.blue-box{
+    background-color: #3882f6;
+    padding: 50px 150px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-right{
+    display: flex;
+    align-items: center;
+}
+
+.top{
+    color: #F9FAF8;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.bottom{
+    color: #e5e7eb;
+}
+
+.box-right button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 10px 50px;
+    border-color: white;
+    font-size: large;
 }
